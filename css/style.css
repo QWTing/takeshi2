@@ -50,6 +50,10 @@ body {
   margin-bottom: 5px;
   font-size: 14px;
 }
+.content .MenuList p {
+  margin-top: 20px;
+  font-size: 14px;
+}
 
 .products {
   box-sizing: border-box;
@@ -59,11 +63,11 @@ body {
   height: 0;
 }
 .products .product-box {
-  padding: 10px 20px;
+  padding: 10px 10px;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
   border: 1px solid rgb(42, 98, 255);
   border-radius: 5px;
   margin-bottom: 5px;
@@ -71,14 +75,32 @@ body {
 .products .product-box h5 {
   margin: 0;
   font-size: 18px;
+  text-align: center;
 }
 .products .product-box span {
   display: block;
   text-align: center;
+  font-size: 16px;
+  width: 55px;
 }
 .products .product-box select {
   width: 50px;
   margin-top: 5px;
+}
+.products .product-box .item .img-btn {
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.products .product-box .item .img-btn img {
+  width: 100%;
+}
+.products .product-box .group {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 
 .order-box {
@@ -86,4 +108,8 @@ body {
   text-align: center;
   display: flex;
   justify-content: space-around;
+}
+
+.modal-body img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
